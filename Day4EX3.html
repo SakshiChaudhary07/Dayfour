@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Exercise3_day4</title>
+    <style>
+    .container #myHeader {
+        color: red;
+    }
+    div + h3{
+        color: green;
+    }
+    .myText1 + .myText2{
+        color: orange;
+    }
+    .myInput[type="text"], input[type="email"]{
+        border: 2px solid green;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1 id="myHeader" class="redText">Hello</h1>
+        <div class="myText1">
+            Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+           
+        </div>
+        <div class="myText2">
+            <h1 id="myHeader" class="redText">Hello,</h1>
+            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Saepe fugit
+            ratione et distinctio vitae aperiam magni.
+        </div>
+        <form>
+        <input class="myInput" type="text" placeholder="Enter text"><br><br>
+        <input type="email" placeholder="Enter email">
+    </form>
+    </div>
+
+    
+</body>
+
+</html>
